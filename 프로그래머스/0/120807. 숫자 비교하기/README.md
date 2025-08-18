@@ -1,10 +1,10 @@
 # [level 0] 숫자 비교하기 - 120807 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120807?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120807?language=go) 
 
 ### 성능 요약
 
-메모리: 81.5 MB, 시간: 0.03 ms
+메모리: 4.22 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 07월 25일 10:04:17
+2025년 08월 18일 14:49:53
 
 ### 문제 설명
 
