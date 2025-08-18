@@ -1,10 +1,10 @@
 # [level 0] 제곱수 판별하기 - 120909 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120909?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120909?language=go) 
 
 ### 성능 요약
 
-메모리: 79.4 MB, 시간: 0.05 ms
+메모리: 3.56 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 07월 25일 09:58:31
+2025년 08월 18일 15:06:33
 
 ### 문제 설명
 
