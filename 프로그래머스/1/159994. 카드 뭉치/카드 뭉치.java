@@ -4,10 +4,12 @@ class Solution {
         int a=0;
         int b=0;
         
-        for( String g: goal){
-            if(a< cards1.length && cards1[a].equals(g)){
+        for( int i=0;i<goal.length;i++){
+            String s=goal[i];
+            
+            if(a< cards1.length && cards1[a].equals(s)){
                 a++;
-            }else if(b<cards2.length && cards2[b].equals(g)){
+            }else if(b<cards2.length && cards2[b].equals(s)){
                 b++;
             }else{
                 return "No";
