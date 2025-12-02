@@ -1,0 +1,29 @@
+class Solution {
+    public int solution(String ineq, String eq, int n, int m) {
+        
+        // 1. eq가 "=" 인 경우
+        if (eq.equals("=")) {
+
+            if (ineq.equals("<")) {
+                return n <= m ? 1 : 0;
+            }
+
+            else {
+                return n >= m ? 1 : 0;
+            }
+        }
+
+        // 2. eq가 "!" 인 경우
+        else {
+
+            if (ineq.equals("<")) {
+                return n < m ? 1 : 0;
+            }
+
+            else {
+                return n > m ? 1 : 0;
+            }
+        }
+       
+    }
+}
