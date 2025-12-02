@@ -1,29 +1,39 @@
 class Solution {
     public int solution(String ineq, String eq, int n, int m) {
-        
-        // 1. eq가 "=" 인 경우
+        int answer = 0; // 기본값
+
+        // "=" 조합이면 >= 또는 <=
         if (eq.equals("=")) {
 
+            // "<=" 조합
             if (ineq.equals("<")) {
-                return n <= m ? 1 : 0;
+                if (n <= m) answer = 1;
+                else answer = 0;
             }
 
+            // ">=" 조합
             else {
-                return n >= m ? 1 : 0;
+                if (n >= m) answer = 1;
+                else answer = 0;
             }
         }
 
-        // 2. eq가 "!" 인 경우
+        // "!" 조합이면 < 또는 >
         else {
 
+            // "<" 조합
             if (ineq.equals("<")) {
-                return n < m ? 1 : 0;
+                if (n < m) answer = 1;
+                else answer = 0;
             }
 
+            // ">" 조합
             else {
-                return n > m ? 1 : 0;
+                if (n > m) answer = 1;
+                else answer = 0;
             }
         }
-       
+
+        return answer;
     }
 }
